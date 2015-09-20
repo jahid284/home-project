@@ -1,0 +1,81 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+	.amazing-feature #amazing-feature .carousel-indicators{
+		top: -120px;
+	}
+	.amazing-feature #amazing-feature .carousel-indicators li{
+		width: 50px;
+		height: 50px;
+		line-height: 48px;
+		margin: 5px 10px;
+	}
+	.amazing-feature #amazing-feature .carousel-inner{
+		top: 0;
+	}
+	.amazing-feature #amazing-feature .carousel-control.left,
+    .amazing-feature #amazing-feature .carousel-control.right{
+      display: none;
+    }
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+	/*navigation*/
+	.main-nav,
+	.sticky-nav .main-nav {
+	  margin-right: 8px !important;
+	}
+	.navbar-nav>li>a {
+	  padding: 30px 10px;
+	}
+	.sticky-nav .navbar-nav>li>a {
+	  padding: 20px 10px;
+	}
+    .footer-contact {
+        margin-top: 30px;
+    }
+
+    .amazing-feature #amazing-feature .carousel-indicators li{
+    	width: 70px;
+    	height: 70px;
+    	line-height: 68px;
+    }
+    .team-section .thumbnail{
+    	margin-bottom: 30px;
+    }
+    .service-section .service-content{
+    	margin-top: 50px;
+    }
+
+    .portfolio-section .portfolio-wraper:nth-child(8){
+    	padding-right: 0;
+    }
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+	.portfolio-filter .list-inline li a{
+		padding: 10px 40px;
+	}
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1280px) {
+
+
+}
+

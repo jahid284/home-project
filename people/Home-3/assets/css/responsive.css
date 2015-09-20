@@ -1,0 +1,89 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+	.navbar-default{
+		padding-top: 4px;
+	}
+
+	.navbar-nav {
+		margin: 25px 0px;
+	}
+
+	.nav>li {
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-bottom: 5px;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		padding: 5px 25px;
+	}
+
+	/* cta-section */
+	.cta-section{
+		text-align: center;
+	}
+	.cta-section h2{
+		font-size: 18px;
+	}
+	.cta-section .btn{
+		margin-top: 15px;
+	}
+
+	
+
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+	
+
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+	/*navigation*/
+	.navbar-default .navbar-nav>li{
+	   margin-right: 3px;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		padding: 8px 8px;
+	}
+
+	.menu-search-toggle{
+		padding: 8px 0px 0px 0px;
+	}
+
+	
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+	
+
+	/*navigation*/
+	.navbar-default .navbar-nav>li{
+	   margin-right: 5px;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		padding: 8px 10px;
+	}
+
+	
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1280px) {
+
+
+}
+

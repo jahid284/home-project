@@ -1,0 +1,97 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+	.social-icon ul li{
+			font-size: 20px;
+			height: 50px;
+			width: 11.94%;
+			line-height: 50px;
+		}
+	#navigation{
+		top: 0;
+	}
+	.navbar-toggle{
+		border: 2px solid #000;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #000;
+	}
+	.navbar-right .navbar-nav li.active a:focus,
+	.navbar-right .navbar-nav li.active a:hover,
+	.navbar-right .navbar-nav li.active a{
+		border-top: 0;
+	}
+	.navbar-right li a{
+		padding: 10px 5px;
+	}
+	.navbar-right .navbar-nav li a:focus,
+	.navbar-right .navbar-nav li a:hover{
+		border-top: 2px solid transparent;
+	}
+	.dropdown-menu>li>a{
+		color: #333;
+	}
+	.navbar-toggle{
+		margin-top: 8px;
+	}
+	.navbar-brand {
+	  padding: 8px 15px;
+	}
+
+
+	
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+	
+	
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+	.navbar-collapse.collapse{
+		text-align: center;
+	}
+	.nav>li {
+		padding: 0 5px;
+	}
+	.navbar-right li a{
+		font-size: 11px;
+	}
+	.nav>li>a{
+		padding: 30px 8px;
+	}
+
+
+
+	
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+
+
+	.navbar-nav>li {
+		padding: 0 8px;
+	}
+	.navbar-nav>li>a{
+		font-size: 11px;
+	}
+
+
+}
+
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) {
+
+
+}
+

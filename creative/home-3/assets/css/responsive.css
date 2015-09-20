@@ -1,0 +1,57 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+
+
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+	/*navigation*/
+	.main-nav {
+	  margin-right: 24px !important;
+	  padding-right: 10px;
+	}
+
+	.navbar-nav>li>a {
+	  padding: 30px 12px;
+	}
+	.sticky-nav .navbar-nav>li>a {
+	  padding: 20px 10px;
+	}
+	.navbar-brand {
+	  padding: 20px 10px 20px 15px;
+	}
+	.sticky-nav .navbar-brand {
+	  padding: 10px 10px 10px 15px;
+	}
+
+
+
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+	/*navigation*/
+	.main-nav {
+	  padding-right: 40px;
+	}
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1280px) {
+
+
+}
+
